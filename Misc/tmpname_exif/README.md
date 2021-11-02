@@ -17,4 +17,4 @@ Hack into C-3OP snapshot-history and get the last eight digits to complete the f
 --- | --- | ---
  xxxxxxxx| 9898 | uitHack9898*xxxxxxxx*
 
-![alt Text](https://giphy.com/gifs/starwars-movie-star-wars-xTilzjS5VKWJzNGIUw)
+![alt Text](<iframe src="https://giphy.com/embed/xTiIzjS5VKWJzNGIUw" width="480" height="206" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/starwars-movie-star-wars-xTiIzjS5VKWJzNGIUw">via GIPHY</a></p>)
