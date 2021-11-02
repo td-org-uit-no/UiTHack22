@@ -17,4 +17,4 @@ Hack into C-3OP snapshot-history and get the last eight digits to complete the f
 --- | --- | ---
  xxxxxxxx| 9898 | uitHack9898*xxxxxxxx*
 
-![hippo](https://media3.giphy.com/media/aUovxH8Vf9qDu/giphy.gif)
+![hippo](https://media.giphy.com/media/xTiIzjS5VKWJzNGIUw/giphy.gif)
