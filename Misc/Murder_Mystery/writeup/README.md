@@ -12,3 +12,7 @@ Note that the EMERGENCY MEETING AND VOTED operators implement the main function 
 
 The solution.c file can be compiled and tested as such:  
 `g++ solution.c -o solution && ./solution`
+
+```
+Flag: UiTHack22{Impostor_SuS}
+```
