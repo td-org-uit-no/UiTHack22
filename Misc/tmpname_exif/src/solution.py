@@ -6,7 +6,7 @@ import random
 from datetime import datetime
 import os
 
-base_addr = 'tmpname_exif/src/C_3PO/history/'
+base_addr = 'Misc/tmpname_exif/src/C_3PO/history/'
 with os.scandir(base_addr) as entries:
     for entry in entries:
         if entry.is_file():
@@ -19,6 +19,6 @@ with os.scandir(base_addr) as entries:
                         if key == 37388:        #37388= tag index for spatial freq. response.
                             if exif_dict[ifd_name][37388] ==b'9898':
                                 print('FOUND THAT SHIT')
-                                print("FlashEnergy",exif_dict[ifd_name][37387]) #37387= tag for FlashEnergy
+                                print(exif_dict)
                                 
                            

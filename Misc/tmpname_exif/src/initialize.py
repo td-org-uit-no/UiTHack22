@@ -8,7 +8,8 @@ from datetime import datetime
 import io
 
 '''
-
+Generates 11337 images of 20x20px with random white spots(stars), representing space or something.
+Each image get random generated exif data, but some are given a flag and data which can be used as clues.
 '''
 def create_images(num_images, key_list):    
     random.seed(datetime.now())
@@ -22,6 +23,7 @@ def create_images(num_images, key_list):
         fe1 = random.randint(500001, 1500000)
         fe2 = random.randint(50000, 150000)
         spf = bytes(str(spf), 'utf-8')
+        user_comment = b"!FLAG"
         date_time = create_date()
 
         for y in range (len(key_list)):
@@ -30,6 +32,7 @@ def create_images(num_images, key_list):
                 spf = bytes(str(spf), 'utf-8')
                 fe1 = key_list[0][2]
                 fe2 = key_list[0][3]
+                user_comment = bytes(str(key_list[0][4]), 'utf-8')
                 print(x)
                 print(date_time)
            
@@ -39,7 +42,7 @@ def create_images(num_images, key_list):
         zeroth_ifd = {
             piexif.ImageIFD.Artist: u"Phinn Skywalker", 
             piexif.ImageIFD.SpatialFrequencyResponse: spf,
-            piexif.ImageIFD.FlashEnergy: (fe1,fe2),
+            piexif.ImageIFD.FlashEnergy: (fe1,0),
             piexif.ImageIFD.XResolution: (1, 1),
             piexif.ImageIFD.YResolution: (1, 1),
             piexif.ImageIFD.Software: u"Sta-Vaars OS",
@@ -47,7 +50,7 @@ def create_images(num_images, key_list):
             }
         exif_ifd = {
             piexif.ExifIFD.DateTimeOriginal: date_time,
-            piexif.ExifIFD.UserComment: b"There might be more to it then the visual",
+            piexif.ExifIFD.UserComment: user_comment,
             }
 
 
@@ -70,7 +73,7 @@ def create_images(num_images, key_list):
             clr_B = random.randint(250,255)
             jpgimg1.putpixel((pxlx, pxly), (255))
 
-        jpgimg1.save(f"tmpname_exif/src/C_3PO/history/{x}.jpg", exif=exif_bytes)
+        jpgimg1.save(f"Misc/tmpname_exif/src/C_3PO/history/{x}.jpg", exif=exif_bytes)
 
 
 def create_date():
@@ -93,9 +96,9 @@ def print_exif(filename):
         print(item)
 
 if __name__ == '__main__':
-    '''[index, spf, fe1, fe2]'''
+    '''[index, spf, fe1, fe2, FLAG]'''
     key_list = [
-        (8008, 9898, 1555, 88888888), 
+        (8008, 9898, 1555, 88888888, "FLAGSHIP"), 
         #(1337, 7315, 3001, 4001), 
         #(8008, 66600656, 49984, 652214), 
         #(9111,404, 666,5641)
