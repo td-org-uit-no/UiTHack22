@@ -15,4 +15,5 @@ The fast, but tricky one:
 src/solution.py parses through all images's exif data, printing out all data when finding the SPF data ==9898. 
 Flag == _FLAGSHIP_, in 8008.jpg
 
+
     
