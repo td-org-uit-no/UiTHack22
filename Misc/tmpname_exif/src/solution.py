@@ -17,7 +17,7 @@ with os.scandir(base_addr) as entries:
             for ifd_name in exif_dict:  
                 for key in exif_dict[ifd_name]:
                         if key == 37388:        #37388= tag index for spatial freq. response.
-                            if exif_dict[ifd_name][37388] ==b'9898':
+                            if exif_dict[ifd_name][37388] ==b'1338':
                                 print('FOUND THAT SHIT')
                                 print(exif_dict)
                                 

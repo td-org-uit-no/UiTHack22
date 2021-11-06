@@ -32,7 +32,7 @@ def create_images(num_images, key_list):
                 spf = bytes(str(spf), 'utf-8')
                 fe1 = key_list[0][2]
                 fe2 = key_list[0][3]
-                user_comment = bytes(str(key_list[0][4]), 'utf-8')
+                user_comment = bytes(str(key_list[y][4]), 'utf-8')
                 print(x)
                 print(date_time)
            
@@ -95,13 +95,15 @@ def print_exif(filename):
     for item in (jpgimg2._getexif()).items():
         print(item)
 
+
+
+
 if __name__ == '__main__':
     '''[index, spf, fe1, fe2, FLAG]'''
     key_list = [
-        (8008, 9898, 1555, 88888888, "FLAGSHIP"), 
-        #(1337, 7315, 3001, 4001), 
-        #(8008, 66600656, 49984, 652214), 
-        #(9111,404, 666,5641)
+        (9899, 9898, 1555, 88888888, "FLAGSHIP"), 
+        (1339, 1338, 3001, 4001, "MOTHERSHIP"), 
+        (6970, 6969, 49984, 652214, "RANDOMSTRINGSHIP"),
         ]
     
     create_images(11337, key_list)
