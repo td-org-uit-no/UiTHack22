@@ -1,12 +1,15 @@
-from PIL import Image
-import numpy as np
-
+import zipfile
 import numpy as np
 from PIL import Image
 
-img = Image.open('dimensions.png').convert('L')
+img = Image.open('flag.png').convert('L')
 arr = np.array(img)
 
 flat_arr = arr.ravel()
-np.savetxt(".csv", flat_arr, delimiter=",")
+np.savetxt("roughly_1000k_numbers.csv", flat_arr, delimiter=",")
+
+
+
+with zipfile.ZipFile("roughly_1000k_numbers.zip", "w", zipfile.ZIP_DEFLATED) as newzip:
+    newzip.write("roughly_1000k_numbers.csv")
 

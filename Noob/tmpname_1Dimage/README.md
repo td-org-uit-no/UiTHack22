@@ -1,5 +1,5 @@
 #  :milky_way:
-Dimensions can be tricky to wrap ones head around. Especially if one interprets them the wrong way nothing will probably make sense. 
+Dimensions can be tricky to wrap ones head around, especially if one interprets them the wrong. The best thing is to keep things simple. 
 
 :dizzy_face:
 
