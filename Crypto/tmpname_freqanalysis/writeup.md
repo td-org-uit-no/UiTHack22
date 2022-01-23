@@ -15,4 +15,4 @@ But watch out, this may not apply everywhere ;)
 
 PS. Remember the structure of the flags "{}"
 
-Falg: UiTHack22{the_empire_attack_endor}
+Falg: UiTHack22{THe_empire_aTTack_endor}
