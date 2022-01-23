@@ -1,0 +1,17 @@
+Well this is kind of awkward. If you are decoding this bit by(te) bit for hand i if feel sorry for you, but it is certainly possible to get through this! The true brute-force-warrior within you will probably be broken allready this far, but i encourage you to keep going! Sooner or later i will leak a solution that will make this much easier for all of us, getting those tasty brute-forced points to win this competition. Well, that was the intro, so here comes some gibberish shit to fill the text with. I'll put the flag in somewhere 3/4 of the text. Good luck! 
+
+1.Why was the new band '1023 MB' extremely sad? Because since their formation, they haven't had a gig yet! 
+2. How did the good teacher know how to teach computer programming to the inpatient boy? He taught the kid about computers bit by bit!
+3.While visiting a zoo, which animal does a computer like watching the most? It definitely has to be a RAM!
+4.Why is the number 237 magical?Because it is Hex ED
+
+If you have decoded all bits this far, not screwed up any single one of them and you can read this in actual English, Kudos for you! I feel this effort actually deserves some sympathy-points, so here you go UitHack22{BruteForceWarriors<3}! Note this is not the primary flag, and the actual flag is still in here somewhere ;) Well, let's go gibberish again..later aligator.
+TIPS: Obtain a deep learning model detecting 0's and 1's from the binary images or some other automated tech. This will behead the inner brute-force-warrior, but we are lazy and there are other tasks awaiting! well here comes some more gibberish jokes.
+https://stackoverflow.com/questions/5508110/why-is-this-program-erroneously-rejected-by-three-c-compilers
+Alright i think we've had enough of this shit.
+THIS IS THE FLAG:UitHack22{IReallyDoHopeYouDidNotbruteForceThis}
+This next text is just to fill in the last part of the text and make sure the flag is not placed at the end of this absurd task. I really hope there was some fun to this task, and it was no somewhat doable.
+I'll see you in the next task, cya!;)
+-phinn
+
+
