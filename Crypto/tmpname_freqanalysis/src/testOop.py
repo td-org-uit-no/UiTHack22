@@ -13,7 +13,7 @@ BROWN =((100,40,0))
 MARRON = ((115,0,0))
 COFFE_BROWN =((200,190,140))
 
-path =  "/home/hauk/uithack/UiTHack22/Crypto/tmpname_freqanalysis/UitHack-2022_freq"
+path =  "/home/hauk/uithack/UiTHack22/Crypto/tmpname_freqanalysis/src/UitHack-2022_freq"
 string = "uithacktheempireattackendor"
 
 class Pic():
