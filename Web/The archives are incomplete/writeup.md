@@ -8,6 +8,10 @@
 > 
 > ![obiwan](https://c.tenor.com/aTB70bcZZKcAAAAd/obi-wan-perhaps-the-archives-are-incomplete.gif)
 
+Flag:
+```
+"UiTHack22{The_empire_Will_Strike_back_eventually}"
+```
 
 The page links to a clone of the wikipedia page for the empire strikes back.  
 This page is however a tiny bit different, and contains words scattered throughout the page that forms the flag.
