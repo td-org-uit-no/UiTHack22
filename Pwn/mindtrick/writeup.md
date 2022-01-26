@@ -5,4 +5,6 @@ At this point you may try to bruteforce the entire hash, but there is a simpler 
 
 This means that the input and expected hash are only compared until the first null byte. Since the Empire managed to put a null byte in the second byte of the password hash, any hash with `0x1c 0x00` as the first two bytes will qualify. This makes it very easy to find a hash collision (as in `solution.c`): for instance, `28488aaaaaaaaaaaaaaaaaaaaaaaaa` will qualify.
 
+Entering a hash which collides gives us the flag, `UiTHack22{not-a-tale-the-jedi-would-tell-you}`
+
 (The full passphrase is "0ItIsNotATaleTheJediWouldTellYouTheTaleOfDarthPlagueis".)

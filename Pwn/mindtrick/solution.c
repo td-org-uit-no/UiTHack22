@@ -58,19 +58,13 @@ int main(int argc, char *argv[]) {
     char solution[SOLUTION_LENGTH];
     uint8_t input_hash[PASSWORD_HASH_LENGTH];
     for(uint64_t i = 0; i < 1000000000; i++) {
+        // Pad out the string to ensure we're changing the first two bytes:
         snprintf(solution, SOLUTION_LENGTH, "%ldaaaaaaaaaaaaaaaaaaaaaaaaa", i);
-        solution[SOLUTION_LENGTH - 1] = '\0';
         hash_password(solution, input_hash);
-        printf("%s\n", solution);
-        for(int j = 0; j < PASSWORD_HASH_LENGTH; j++){
-            printf("%02x", input_hash[j]);
-        }
-        printf("\n");
 
         if(input_hash[0] == 0x1c && input_hash[1] == 0x0) {
-            printf("A vulnerable solution: %s\n", solution);
+            printf("Collision found: %s\n", solution);
             return 0;
         }
     }
-    printf("No vuln found.\n");
 }

@@ -3,6 +3,7 @@
 #include <stdint.h>
 #include <string.h>
  
+#define MAX_PASSWORD_LENGTH 64
 #define PASSWORD_HASH_LENGTH 32
 
 // By Imperial decree, all identification must supply a passphrase which
@@ -56,14 +57,16 @@ void hash_password(uint8_t *input, uint8_t *dst) {
 }
 
 int main(int argc, char *argv[]) {
-    if(argc < 2) {
+    printf("What is the passphrase? ");
+    char input[MAX_PASSWORD_LENGTH];
+    if (scanf("%63s", input) != 1) {
         printf("I'm going to need to see some identification.\n");
         printf("Error: must provide a password as the second argument.\n");
         return 1;
     }
 
     char input_hash[PASSWORD_HASH_LENGTH];
-    hash_password(argv[1], &input_hash[0]);
+    hash_password(input, &input_hash[0]);
 
     // Use strncmp to stop the pesky Rebels from trying to overflow our buffers.
     if(strncmp(input_hash, PASSWORD_HASH, PASSWORD_HASH_LENGTH) == 0) {
