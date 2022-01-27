@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/log4j-shell-poc.iml" filepath="$PROJECT_DIR$/.idea/log4j-shell-poc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vulnerable-application/log4shell.iml" filepath="$PROJECT_DIR$/vulnerable-application/log4shell.iml" />
+    </modules>
+  </component>
+</project>
