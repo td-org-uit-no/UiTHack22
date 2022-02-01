@@ -1,0 +1,43 @@
+
+
+body{
+    background-image: url("space_bc.jpg"); 
+    background-repeat: no-repeat;
+    color: greenyellow;
+    font-family: monospace;
+}
+
+.section-header{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 2% 0%;
+}
+
+p{
+    position: center;
+}
+
+span{
+    opacity: 0;
+    
+}
+
+span:hover {
+    transition: all 5s ease;
+    color: tomato;
+    opacity: 1;
+    
+}
+
