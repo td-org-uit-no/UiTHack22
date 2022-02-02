@@ -19,11 +19,12 @@
 
 
 # Writeup
-Look at the respective users(Darth_vader) user id on the server. Insert the id into the flag structure.
+Look at the respective users(Darth_Vader) user id on the server. Insert the id into the flag structure.
 ```
-$ id grandMaster
-    $ 991323122
+$ less /etc/passwd
+Will list all user and their id's.
 ```
+
 `
 UiTHack22{991323122}
 `
