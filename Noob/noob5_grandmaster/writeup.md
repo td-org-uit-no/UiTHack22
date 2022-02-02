@@ -1,7 +1,7 @@
 ># Darth Vader's identity
->
->We have come to know that Darth Vader's identity is leaked and is of grave importatance for us.
->Retrieve his identity to help the Republic rise and show us all you truly has the abilities of a Grand master!
+>Noob Grand Master - 300pts
+>We have come to know that Darth Vader's identity is leaked somewhere.
+>Retrieve his identity which is of grave importance to help the Republic rise and show us all you truly has the abilities of a Grand master!
 >
 >
 >
