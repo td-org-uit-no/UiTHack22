@@ -1,0 +1,47 @@
+body{
+    background-image: url("jabba.jpg"); 
+    color: rgb(69, 241, 35);
+    font-family: monospace;
+}
+
+.section-header{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 2% 0%;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
+
+form {
+    text-align: center
+}
+
+p{
+    position: center;
+    text-align: center
+}
+
+a {
+    color: aquamarine;
+}
+
+
+
