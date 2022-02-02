@@ -1,6 +1,6 @@
 
 # Crypto - Advanced Engineering Systems
-> Crypto - 150pts
+> Crypto - 200pts
 
 On Alderaan Rijndael works as an engineer for the republic. He
 is lucrative for the Republic because he is an expert on 
