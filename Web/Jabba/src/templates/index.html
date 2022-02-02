@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>UiTHack 2022</title>
+  </head>
+  <body>
+    <h1>Meet Jabba the Hutt</h1>
+    <div>
+      {% if not session.logged_in %}
+      <form action="{{ url_for('check_authentication') }}" method="get">
+        <p>Only the boss have access, and some speciall few.</p>
+      </form>
+      {% endif %}
+      {% if not session.logged_in %}
+      <p> You need to be logged in to see the <a href="{{ url_for('flag') }}">flag</a></p>
+      {% else %}
+      <p>You are logged in, now you can see the <a href="{{ url_for('flag') }}">flag</a></p>
+      {% endif %}
+    </div>
+    {% if not session.logged_in %}
+    <h2>Login</h2>
+      {% if error %}
+      <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    <form action="{{ url_for('login') }}" method="post">
+      <dl>
+        <dt>Username:
+        <dd><input type="text" name="username">
+        <dt>Password:
+        <dd><input type="password" name="password">
+        <dd><input type="submit" value="login">
+      </dl>
+    </form>
+    {% endif %}
+  </body>
+</html>
