@@ -1,3 +1,6 @@
+
+# Crypto - Tusken Painter
+> Crypto - 250pts
 "Who writes like a caveman on Tatooine?"
 
 Obi-Wan Kenobi is wandering in the dessert of Tatooine when he suddenly discovers 
