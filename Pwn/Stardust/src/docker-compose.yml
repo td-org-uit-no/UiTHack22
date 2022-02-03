@@ -1,0 +1,6 @@
+version: "3.9"
+services:
+  stardust:
+    build: .
+    ports:
+      - "5700:5700"
