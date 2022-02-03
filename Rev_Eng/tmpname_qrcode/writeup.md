@@ -1,4 +1,12 @@
-
+> # Qrcode
+> > Rev_eng - 300 pts
+> 
+> You and R2D2 are trying to get through a locked door but
+> R2D2s systems are not designed to decode images.  
+> See if you can help him!
+> 
+> <img src="qrcode.png" />
+> 
 
 Solution:
 
@@ -10,4 +18,8 @@ This indicates the output is an executable so you need to store the contents in 
 zbarimg -q qrcode.png --raw | base64 -d > flag
 chmod +x flag
 ./flag
+```
+
+```
+Flag: "UiTHack22{HelP_Me_ObI_WaN}"
 ```
