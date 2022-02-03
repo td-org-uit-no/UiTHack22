@@ -1,4 +1,5 @@
 # Help the crew home!
+> Misc - 200 pts
 
 The Xwing had to reboot the system causing coordinates and route-data home to get 
 partly wiped.

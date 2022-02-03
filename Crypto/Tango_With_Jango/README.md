@@ -1,6 +1,6 @@
 
-# Crypto - Tango With Jango
-> Crypto - 150pts
+# Tango With Jango
+> Crypto - 150pts  
 
 Master Windu is leading the the 7th Sky Corpse in an epic space 
 battle against the Separatists. Suddenly he is hit in the rear of his ship. 

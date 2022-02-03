@@ -1,4 +1,5 @@
 # Jedi Mind Trick
+> Pwn - 300 pts
 
 You are deep in the city of Kra Emer, escorting a set of medical protocol droids to a local hospital, on a secret mission on behalf of the Distributed Interstellar Patient System (DIPS). 
 

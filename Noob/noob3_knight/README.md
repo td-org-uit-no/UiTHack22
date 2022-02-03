@@ -8,8 +8,7 @@ The username for this trial, is `knight`
 The server name is `sparkly-unicorn.td.org.uit.no`.
 The password for knight is the flag from the padawan challenge.
 
-
-
+Make sure to save the flags as you go, as the password for the next task is the flag from the previous one.
 
 
 Tips:

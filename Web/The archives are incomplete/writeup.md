@@ -1,4 +1,5 @@
 > # The archives are incomplete!
+> > Web - 250 pts
 > 
 > Obi wan is researching important jedi matters and has found this article.  
 > However, it seems like something is wrong with the page.  
@@ -8,9 +9,10 @@
 > 
 > ![obiwan](https://c.tenor.com/aTB70bcZZKcAAAAd/obi-wan-perhaps-the-archives-are-incomplete.gif)
 
-Flag:
+## Writeup
+
 ```
-"UiTHack22{The_empire_Will_Strike_back_eventually}"
+Flag: "UiTHack22{The_empire_Will_Strike_back_eventually}"
 ```
 
 The page links to a clone of the wikipedia page for the empire strikes back.  

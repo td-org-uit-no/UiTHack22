@@ -1,4 +1,6 @@
 # Exhaust
+> Misc - 200 pts
+
 A brave team of engineers from the Distributed Interstellar Patient System (DIPS) have recovered a secret file which could point to a vulnerability in the Empire's defenses.
 
 Sadly, the engineers are missing a key piece of equipment to find this vulnerability - can you help?

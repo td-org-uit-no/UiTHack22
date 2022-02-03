@@ -18,7 +18,7 @@
 >
 >![C-3PO](https://media.giphy.com/media/xTiIzjS5VKWJzNGIUw/giphy.gif)
 
-
+## Writeup
 
 The flag is split into three parts located within the exif data of 11337 images. Each image containing a part of the flag has a given spatial frequency response(EXIF-tag). Parsing out the exif of these images reveals a flag parts located in the user_comment.
 
