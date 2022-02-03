@@ -6,3 +6,7 @@ R2D2 is not designed to decode images.
 See if you can help him!
 
 <img src="qrcode.png" />
+
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)

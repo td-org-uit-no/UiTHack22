@@ -18,3 +18,7 @@ anything about the password and he needs your help!
 
 
 [note](./note.txt)
+
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)

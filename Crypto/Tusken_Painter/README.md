@@ -12,6 +12,8 @@ frequent than others, can you help him discover what the drawing says?
 
 >> Hint 2: PS. Remember the structure of the flags "{}"
 
+[Writeup](./writeup.md)
+
 ![CAVEMEN](cavemen.png)
 
 

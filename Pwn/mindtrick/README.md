@@ -12,3 +12,7 @@ Hint 1. The hash algorithm is weak, but there's a bigger weakness hiding here...
 Hint 2. Take another look at the password hash comparison. What is it actually checking? Cppreference may be useful.
 
 Hint 3. Take a look at the password hash, specifically the first two bytes: what happens if you use strncmp?
+
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)

@@ -10,11 +10,10 @@ The password for knight is the flag from the padawan challenge.
 
 Make sure to save the flags as you go, as the password for the next task is the flag from the previous one.
 
-
 Tips:
 `ssh knight@sparkly-unicorn.td.org.uit.no`
 
 Tips:
 Have you seen all of the list?
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

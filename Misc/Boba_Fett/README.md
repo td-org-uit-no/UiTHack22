@@ -8,5 +8,6 @@ Been given a picture that contains great secrets, you have. Strong with young lu
 Tips:
 More that meets the eye there is.
 
+Files: [source code](./scr)
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

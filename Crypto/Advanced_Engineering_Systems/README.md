@@ -19,4 +19,4 @@ The computer buzzes and prints out an error message.
 
 What is the error message? 
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

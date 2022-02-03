@@ -9,12 +9,10 @@ The username for this first trial, is `youngling`.
 The server name is `sparkly-unicorn.td.org.uit.no`.  
 The password for youngling is `initiate_trials`.
 
-
-
 Tips:
 `ssh youngling@sparkly-unicorn.td.org.uit.no`
 
 Tips:
 Read up on your unix commands 
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

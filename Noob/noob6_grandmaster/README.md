@@ -9,12 +9,10 @@ The username for this trial is `grandMaster`.
 The server name is `sparkly-unicorn.td.org.uit.no`.  
 The password for grandMaster is the flag from the `jedi` challenge.
 
-
 ```
 Tips: `ssh grandMaster@sparkly-unicorn.td.org.uit.no`
 Tips: `Vader lives in harmony with unicorns`
 Tips: `Reconstruct the flag with Darth Vaders identity`
 ```
 
-
->[Writeup](./writeup)
+[Writeup](./writeup.md)

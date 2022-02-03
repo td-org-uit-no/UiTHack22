@@ -22,5 +22,9 @@ Spatial freq. respons| Lost data|
 Flag | __UiTHack22{*XXXXXXXXYYYYYYYYYYZZZZZZZZZZZZZZZZ*}__|
 ---| ---
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
+
 ![C-3PO](https://media.giphy.com/media/xTiIzjS5VKWJzNGIUw/giphy.gif)
 

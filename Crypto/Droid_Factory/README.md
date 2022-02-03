@@ -13,4 +13,6 @@ Droid 5: JvaWRzfQ==
 
 What quality does the droids have? 
 
+[Writeup](./writeup.md)
+
 ![Droids](https://media.giphy.com/media/xT9DPr4VjeCgeiLoMo/giphy.gif)

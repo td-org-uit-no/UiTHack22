@@ -5,3 +5,6 @@ Dimensions can be tricky to wrap ones head around, especially if one interprets 
 
 :dizzy_face:
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)

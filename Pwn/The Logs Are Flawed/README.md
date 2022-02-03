@@ -7,4 +7,8 @@ You and the rest of the empire digital attack force are tasked with using the bu
 
 > Hint: Log4J
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
+
 ![hacker](https://68.media.tumblr.com/f34726c691d11ac56adcdc21f0f38a4c/tumblr_omsi8eaput1so18vqo1_540.gif)

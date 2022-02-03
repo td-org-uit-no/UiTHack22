@@ -12,5 +12,8 @@ Air resistance force |
 Mechanical force	|
 Spring force	|
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
 
 ![C-3PO](https://media.giphy.com/media/OMZRxGyZZ6fGo/giphy.gif)

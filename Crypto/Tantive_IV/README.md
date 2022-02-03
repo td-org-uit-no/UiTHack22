@@ -8,4 +8,6 @@ even C3PO does not understands, help him!!!
 
 > YmXLego22{Hevxl_Zehiv_Mr_Xli_Lepp}
 
+[Writeup](./writeup.md)
+
 ![R2DO](https://media.giphy.com/media/bq6F8QYqBU7Yc/giphy.gif)

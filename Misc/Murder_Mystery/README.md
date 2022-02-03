@@ -7,4 +7,6 @@ Can you help us decode the logs?
 
 [logs](./logs.txt)
 
-[writeup](./writeup.md)
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)

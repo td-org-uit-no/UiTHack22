@@ -12,7 +12,6 @@ The following message was just intercepted by a communications satelite, can you
 ```
 
 
-Files: 
-[source code](./src/)
+Files: [source code](./scr)
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

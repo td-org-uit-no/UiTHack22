@@ -11,3 +11,5 @@ Just now the base has detected an anomaly at the following coordinates:
 Investigate and report back.
 
 <img src="https://i.gifer.com/90GZ.gif" width="400" height="400" />
+
+[Writeup](./writeup.md)

@@ -10,3 +10,7 @@ Hint 1: Replicators neither exist in Star Wars nor in real life... but do you ha
 Hint 2: You might need to make a trench run of your own - your ship will need to be a real *slicer* or a *blender*...
 
 Hint 3: If it's tricky to spot the vulnerability, look for the "wireframe" or "X-ray" switch...
+
+File: [schematics](./schematics.txt)
+
+[Writeup](./writeup.md)

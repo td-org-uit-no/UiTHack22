@@ -13,3 +13,4 @@ Tips: ssh master@sparkly-unicorn.td.org.uit.no
 
 Tips: The structure is deep, but not endless
 
+[Writeup](./writeup.md)

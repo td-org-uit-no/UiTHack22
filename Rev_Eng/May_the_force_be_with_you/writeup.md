@@ -13,17 +13,14 @@
 >Mechanical force	|
 >Spring force	|
 >
-
+> Files: [source code](./scr)
+>
 > ![C-3PO](https://media.giphy.com/media/OMZRxGyZZ6fGo/giphy.gif)
 
 ## Writeup
 
 Find any OCR tool online to convert the pixelated image into a document of characters. Then convert from binary to ascii.
 Can be done by Tesseract OCR engine, a machine vision model to recognise ascii/letters/numbers or brute force translate.
-
-
-
-
 
 
 ## Simple solution

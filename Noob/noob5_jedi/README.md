@@ -8,5 +8,9 @@ The username for this trial is `jedi`.
 The server name is `sparkly-unicorn.td.org.uit.no`.  
 The password for jedi is the flag from the `master` challenge.
 
+
 Tips: `ssh jedi@sparkly-unicorn.td.org.uit.no`  
+
 Tips: First glance can fool you
+
+[Writeup](./writeup.md)

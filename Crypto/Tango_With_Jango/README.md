@@ -9,4 +9,4 @@ a message.
 
 [Message](./message.txt)  
 [HEART](./HEART.txt)  
-[Writeup](./writeup)
+[Writeup](./writeup.md)
