@@ -1,0 +1,11 @@
+[package]
+name = "massacre_aftermath"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# building with no debug symbols but without optimizations to make it more about
+# decoding the specific rust functions and closures and not the assembly :D
+[profile.release]
+opt-level = 0
