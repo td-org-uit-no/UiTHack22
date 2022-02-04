@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 LABEL Description="UiTHack22 Ephemeral"
-EXPOSE 7070
+EXPOSE 5800
 
 ENV EPHEMERAL_PASSWORD="1138"
 ENV EPHEMERAL_FLAG="UiTHack22{the-timing-oracle-of-delphi}"
@@ -18,4 +18,4 @@ RUN chmod 555 /home/jedi/ephemeral
 USER jedi
 WORKDIR /home/jedi
 
-CMD socat TCP-LISTEN:7070,reuseaddr,fork EXEC:"/home/jedi/ephemeral",pty,stderr
+CMD socat TCP-LISTEN:5800,reuseaddr,fork EXEC:"/home/jedi/ephemeral",pty,stderr

@@ -7,8 +7,6 @@ services:
               published: 7300
               protocol: tcp
               mode: host
-    volumes:
-      - ./Jabba/src:/code
   deathstar:
     build: ./Death_Star/src
     ports:
@@ -16,8 +14,6 @@ services:
               published: 7100
               protocol: tcp
               mode: host
-    volumes:
-      - ./Death_Star/src:/code
   leia:
     build: ./Leia/src
     ports:
@@ -25,8 +21,6 @@ services:
               published: 7000
               protocol: tcp
               mode: host
-    volumes:
-      - ./Leia/src:/code
   tellus:
     build: ./Hidden_Island_on_Tellus/src
     ports:
@@ -34,8 +28,6 @@ services:
               published: 7200
               protocol: tcp
               mode: host
-    volumes:
-      - ./Hidden_Island_on_Tellus/src:/code
   archives:
     build: ./The_archives_are_incomplete/src
     ports:
@@ -43,5 +35,3 @@ services:
               published: 7400
               protocol: tcp
               mode: host
-    volumes:
-      - ./The_archives_are_incomplete/src:/code
