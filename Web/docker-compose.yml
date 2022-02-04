@@ -35,3 +35,10 @@ services:
               published: 7400
               protocol: tcp
               mode: host
+  only_droids:
+    build: ./Only_droids_allowed/src
+    ports:
+            - target: 8000
+              published: 7500
+              protocol: tcp
+              mode: host
