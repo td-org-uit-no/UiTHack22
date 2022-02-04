@@ -1,0 +1,48 @@
+body{
+    background-image: url("allaience.jpg"); 
+    color: rgb(231, 33, 26);
+    background-size: 100%;
+    font-family: monospace;
+}
+
+.section-header{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 80%;
+    margin: 2% 0%;
+}
+
+h1 {
+    text-align: center
+}
+
+h2 {
+    text-align: center
+}
+
+form {
+    text-align: center
+}
+
+p{
+    position: center;
+    text-align: center
+}
+
+a {
+    color: aquamarine;
+}
+
+
+

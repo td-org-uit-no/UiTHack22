@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="/static/favicon.ico">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>UiTHack 2022</title>
+    <!-- For Leia only!! -->
+    <!-- Usernmae: r3b3l_Le1a -->
+    <!-- Password: May the 4th be with you -->
+  </head>
+  <body>
+    <h1>Alliance Database</h1>
+    <h2>Login</h2>
+    <p>Only the Alliance have the correct credentials. Only they may log into the Database. May the Force be with you.</p>
+      {% if error %}
+      <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    <form action="{{ url_for('login') }}" method="post">
+      <dl>
+        <dt>Username:
+        <dd><input type="text" name="username">
+        <dt>Password:
+        <dd><input type="password" name="password">
+        <dd><input type="submit" value="login">
+      </dl>
+    </form>
+  </body>
+</html>
