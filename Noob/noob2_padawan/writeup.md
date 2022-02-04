@@ -1,21 +1,22 @@
-# Writeup
-># The depth
->Noob Master- 200pts
->By using the right tools one can see all the way >into the real depth of the fabric of space!
+> # Noob2 - Padawan
+> > padawan - 100pts
+> 
+> Congrats, you just made through your first trial. It will only go up from here! The next step as a Padawan is to find the flag and move up the ranks to a knight!
+> 
+> To enter you will need to connect through `ssh`.
+> The username for this trial is `padawan`.  
+> The server name is `sparkly-unicorn.td.org.uit.no`.  
+> The password for padawan is the flag from the `youngling` challenge.
+> 
+> 
+> 
+> Tips:
+> `ssh padawan@sparkly-unicorn.td.org.uit.no`
+> 
+## Writeup
 
->The server name is `sparkly-unicorn.td.org.uit.no` >The password for master is the flag from the `knight` challenge.
+Navigate into the flag folder with `cd flag` and use `cat flag.txt` to read the flag.
 
->
->Tips: ssh master@sparkly-unicorn.td.org.uit.no
->
->Tips: The structure is deep, but not endless
->
-
->[Writeup](./writeup.md)
-
-Navigate into /flag and open flag.txt to retrieve the flag.
-
-cat flag/flag.txt
 
 ```
 UiTHack22{PatienceYouMustHaveMyYoungPadawan}

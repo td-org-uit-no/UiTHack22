@@ -17,7 +17,8 @@
 > Have you seen all of the list?
 
 ## Writeup
-The flag directory is hidden as well as the flag.txt inside. The commands needed is `ls -la` to identify that there is a hidden directory, then `cd .flag`. you will need to identify the hidden text file as well, then you can use `cat .flag.txt` to read it.
+The flag directory is hidden as well as the flag.txt inside. The commands needed is `ls -la` to identify that there is a hidden directory, then `cd .flag`.  
+You will need to identify the hidden text file as well, then you can use `cat .flag.txt` to read it.
 
 ```
 UiTHack22{may_the_Force_be_with_you_Jedi_Knight}

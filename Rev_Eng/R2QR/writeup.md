@@ -1,5 +1,5 @@
 > # Qrcode
-> > Rev_eng - 300 pts
+> > Rev-Eng - 300 pts
 > 
 > You and R2D2 are trying to get through a locked door but
 > R2D2s systems are not designed to decode images.  
@@ -7,8 +7,10 @@
 > 
 > <img src="qrcode.png" />
 > 
+> Files: [source code](./scr)
 
-Solution:
+
+## Writeup
 
 When you read the qrcode you might notice it is base64 encoded.  
 When you decode the b64 you might notice the words ELF in the output.  

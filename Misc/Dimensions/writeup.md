@@ -1,8 +1,11 @@
->#  :milky_way:
+> #  Dimensions
+> > Misc - 100 pts  
+>
 >Dimensions can be tricky to wrap ones head around, especially >if one interprets them the wrong. The best thing is to keep >things simple. 
 >
 >:dizzy_face:
 
+## Writeup
 
 Convert the numbers from a 1-dimensional array to a 2-dimensional array and preview it the get the flag. There is a million numbers, and the picture has equally big dimensions, 1000x1000px. 
 

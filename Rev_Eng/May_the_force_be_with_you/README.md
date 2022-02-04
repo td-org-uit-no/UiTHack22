@@ -1,4 +1,5 @@
-# May the force be with you!
+# May the Force be with you!
+> Rev-Eng - 150 pts
 
 Contact Forces	| Non contact Forces| Other Forces|
 --- | ---| ---|
@@ -11,5 +12,8 @@ Air resistance force |
 Mechanical force	|
 Spring force	|
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
 
 ![C-3PO](https://media.giphy.com/media/OMZRxGyZZ6fGo/giphy.gif)

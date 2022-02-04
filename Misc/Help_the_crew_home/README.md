@@ -1,4 +1,5 @@
 # Help the crew home!
+> Misc - 200 pts
 
 The Xwing had to reboot the system causing coordinates and route-data home to get 
 partly wiped.
@@ -20,6 +21,10 @@ Spatial freq. respons| Lost data|
 
 Flag | __UiTHack22{*XXXXXXXXYYYYYYYYYYZZZZZZZZZZZZZZZZ*}__|
 ---| ---
+
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
 
 ![C-3PO](https://media.giphy.com/media/xTiIzjS5VKWJzNGIUw/giphy.gif)
 

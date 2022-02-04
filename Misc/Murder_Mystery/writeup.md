@@ -1,4 +1,13 @@
-# Writeup
+> # Murder mystery
+> > Misc - 200 pts
+> 
+> We are trapped on a spaceship, but there is an impostor among us.  
+> We have recovered the ship logs and now we only need to decode them to find the murderer.  
+> Can you help us decode the logs?
+> 
+> [logs](./logs.txt)
+
+## Writeup
 
 The log is written in the esoteric [Among us](https://esolangs.org/wiki/Among_Us) language.  
 The language specification can be found on the website, as well as a link to a [c++](https://github.com/toc8730/amonguscpp/blob/main/amongus.h) header file to compile the language.  

@@ -9,3 +9,6 @@ Hint: Are there any ways you can manipulate the program?
 
 Hint 2: Can you break it somehow?
 
+Files: [source code](./scr)
+
+[Writeup](./writeup.md)
