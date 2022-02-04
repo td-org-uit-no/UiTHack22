@@ -1,5 +1,5 @@
 FROM ubuntu:20.04
-LABEL Description="UiTHack22 stardust"
+LABEL Description="UiTHack22 Stardust"
 EXPOSE 5700
 
 ENV FLAG="UiTHack22{The_Deathstar_Will_Be_Beutiful_but_Flawed}"

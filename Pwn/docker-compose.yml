@@ -1,0 +1,21 @@
+version: "3.9"
+services:
+  stardust:
+    build: ./Stardust/src
+    ports:
+      - "5700:5700"
+  mindtric:
+    build: ./mindtrick/src
+    ports:
+      - "5600:5600"
+  ephemeral:
+    build: ./ephemeral/src
+    ports:
+      - "5800:5800"
+  logs:
+    build: ./The_Logs_Are_Flawed/src/log4j-shell-poc
+    ports:
+      - target: 8080
+        published: 5500
+        protocol: tcp
+        mode: host

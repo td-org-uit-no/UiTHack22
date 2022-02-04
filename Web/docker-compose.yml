@@ -1,0 +1,37 @@
+version: "3.9"
+services:
+  jabba:
+    build: ./Jabba/src
+    ports:
+            - target: 5000
+              published: 7300
+              protocol: tcp
+              mode: host
+  deathstar:
+    build: ./Death_Star/src
+    ports:
+            - target: 5000
+              published: 7100
+              protocol: tcp
+              mode: host
+  leia:
+    build: ./Leia/src
+    ports:
+            - target: 5000
+              published: 7000
+              protocol: tcp
+              mode: host
+  tellus:
+    build: ./Hidden_Island_on_Tellus/src
+    ports:
+            - target: 5000
+              published: 7200
+              protocol: tcp
+              mode: host
+  archives:
+    build: ./The_archives_are_incomplete/src
+    ports:
+            - target: 5000
+              published: 7400
+              protocol: tcp
+              mode: host

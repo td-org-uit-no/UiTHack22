@@ -1,5 +1,5 @@
 FROM python:3.7-alpine
-LABEL Description="UiTHack22 Jabba"
+LABEL Description="UiTHack22 Death Star"
 
 WORKDIR /code
 ENV FLASK_APP=server.py
@@ -8,7 +8,7 @@ RUN apk add --no-cache gcc musl-dev linux-headers
 
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
-EXPOSE 7300
+EXPOSE 7100
 
 COPY . .
 CMD ["flask", "run"]
