@@ -39,3 +39,7 @@ for c in s[1:].rev():
 res += s[0] / 2
 res = res.reverse()
 ```
+
+```
+Flag: UiTHack22{BrinG_tHE_Droid_to_my_father_ON_Alderaan}
+```
