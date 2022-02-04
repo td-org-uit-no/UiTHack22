@@ -38,7 +38,9 @@ fn main() -> io::Result<()> {
         io::stdin().read_line(&mut input)?;
 
         if encrypt(input.trim().as_bytes()) == STATIC_SECRET {
-            slow_print("Correct, access granted.");
+            slow_print("Correct, access granted.\n");
+            slow_print("Accessing logs...\n");
+            slow_print("Recent departure detected: Escape pod heading towards Tatooine.");
             break;
         }
 
