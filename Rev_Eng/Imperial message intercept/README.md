@@ -1,5 +1,5 @@
 # Imperial message intercept
-> Rev-eng - 200pt
+> Rev-Eng - 200pt
 
 The rebels have infiltrated an imperial cruiser and extracted a crucial part of their encryption system.  
 You have been recruited to help them reverse engineer the code and use it to decrypt their covert communications.  
@@ -12,7 +12,6 @@ The following message was just intercepted by a communications satelite, can you
 ```
 
 
-Files: 
-[source code](./src/)
+Files: [source code](./scr)
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)

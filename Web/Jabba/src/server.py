@@ -1,6 +1,4 @@
-
 import base64
-from platform import java_ver
 from flask import Flask, render_template, redirect, url_for, request, abort
 import os
 app = Flask(__name__)

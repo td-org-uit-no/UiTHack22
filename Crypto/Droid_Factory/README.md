@@ -1,6 +1,7 @@
 
-# Crypto - Droid Factory 
-> Crypto - 100pts
+# Droid Factory 
+> Crypto - 100pts  
+
 General Grevious has some trouble with his old 
 battle droids. He is down at the droid facotry and tries some of the droids there. Many of the droids have a "Try Me" button, as a way to hear the qualities of the droids. He finds five droids that he wants and pushes the "Try Me" button. 
 
@@ -11,5 +12,7 @@ Droid 4: JsYXN0ZXJfRH
 Droid 5: JvaWRzfQ==  
 
 What quality does the droids have? 
+
+[Writeup](./writeup.md)
 
 ![Droids](https://media.giphy.com/media/xT9DPr4VjeCgeiLoMo/giphy.gif)

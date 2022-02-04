@@ -1,5 +1,6 @@
-# Crypto - Droid Factory 
-> Crypto - 100pts
+> # Droid Factory 
+> > Crypto - 100pts  
+>
 >General Grevious has some trouble with his old 
 >battle droids. He is down at the droid facotry and tries some of the droids there. Many of the droids have a "Try Me" button, as a way to hear the qualities of the droids. He finds five droids that he wants and pushes the "Try Me"- button. 
 >
@@ -13,7 +14,10 @@
 >
 >![Droids](https://media.giphy.com/media/xT9DPr4VjeCgeiLoMo/giphy.gif)
 
-The "==" should disclose that this is base64 encoded. The chiper yields itself as: 
+## Writeup
+
+The "==" should indicate that this is base64 encoded.  
+Combining the messages and decoding with base64 returns the following flag:
 ```
 UiTHack22{The_Best_Blaster_Droids}
 ```

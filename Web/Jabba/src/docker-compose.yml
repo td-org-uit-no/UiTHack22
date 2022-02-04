@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  jabba:
+    build: .
+    ports:
+            - target: 5000
+              published: 7300
+              protocol: tcp
+              mode: host
+    volumes:
+      - .:/code

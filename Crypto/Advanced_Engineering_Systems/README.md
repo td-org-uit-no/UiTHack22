@@ -1,6 +1,6 @@
 
-# Crypto - Advanced Engineering Systems
-> Crypto - 200pts
+# Advanced Engineering Systems
+> Crypto - 300pts
 
 On Alderaan Rijndael works as an engineer for the republic. He
 is lucrative for the Republic because he is an expert on 
@@ -11,11 +11,12 @@ is something wrong with the computer in his X-Wing.
 
 Since Rijndael is an AES expert this should be no problem. 
 Luke mentions that there might be an old paper that 
-can help Rijndael work out the promblem with the computer
-[Systemtranslater-Box](./Systemtranslater-Box.png). 
+can help Rijndael work out the promblem with the computer.
+
+![Systemtranslater-Box](./Systemtranslater-Box.png)
 The computer buzzes and prints out an error message.
 [Errormessage](./errmsg.txt)
 
 What is the error message? 
 
-[Writeup](./writeup)
+[Writeup](./writeup.md)
